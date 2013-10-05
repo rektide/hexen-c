@@ -1,0 +1,12 @@
+{
+	"name": "hexen-c",
+	"version": "1.0.0",
+	"description": "Tallies hex letters found",
+	"main": "hexen-c.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": "https://cgit.voodoowarez.com/hexen-c.git",
+	"author": "rektide",
+	"license": "MIT"
+}
