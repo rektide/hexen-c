@@ -4,7 +4,7 @@
 	"description": "Tallies hex letters found",
 	"main": "hexen-c.js",
 	"scripts": {
-		"test": "echo \"Error: no test specified\" && exit 1"
+		"test": "echo \"Error: no test specified\" | node hexen-c.js"
 	},
 	"repository": "https://cgit.voodoowarez.com/hexen-c.git",
 	"author": "rektide",
