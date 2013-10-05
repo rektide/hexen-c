@@ -1,6 +1,7 @@
 var data= []
-process.stdin.on("data",data.push.bind(data,undefined))
-process.stdin.on("exit",function(){
+function inz(datum){data.push(new Buffer(datum).toString())}
+process.stdin.on("data",inz)
+process.stdin.on("end",function(){
 	var hexes= /[0-9A-F]/,
 	  agg= {}
 	function eventTrigger(n){
